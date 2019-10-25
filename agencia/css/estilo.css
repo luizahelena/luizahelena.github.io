@@ -1,0 +1,493 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Frank+Ruhl+Libre');
+
+/* Seletor Simples */
+
+html {
+    background-color: #ededed
+}
+
+/* seletor simples com duas propriedades */
+
+body {
+    background-color: #FFFFFF;
+    font-size-adjust: 100%;
+    margin: auto;
+    width: 90px;
+}
+
+/* seletor agrupado */
+
+nav,
+article,
+aside,
+section {
+    background-color: #FFFFFF;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/*seletor simples */
+
+header nav ul li {
+    margin: 150px;
+    width: 960px;
+    text-align: center
+}
+
+/* Estilo no paragráfo */
+
+p {
+    font-family: 'Frank Ruhl Libre', Times New Roman, Liberation serif, Serif;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 5px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+/* Estilos do NAV */
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    /* topo, direita, base, esquerda */
+    padding: 05px 10px 0px 10px;
+    color: #1E90FF;
+    /*    text-transform: uppercase;*/
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+}
+
+ul li a:hover {
+    color: #FFFFFF;
+    background-color: #1E90FF;
+    border-radius: 16px;
+}
+
+/* Ajustar o posicionamento */
+
+body {
+    width: 960px;
+    margin: 0px auto 0px auto;
+}
+
+/* Aqui tem um article, aside, section e footer */
+
+article {
+    width: 650px;
+    margin-top: 25px;
+    margin-bottom: 22px;
+    float: left;
+    padding-left: 10px;
+}
+
+aside {
+    width: 270px;
+    margin-top: 25px;
+    margin-left: 20px;
+    float: left;
+    padding-left: 0px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: #1E90FF;
+}
+
+section {
+    width: 940px;
+    float: left;
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* Aqui tem uma tabela */
+
+table,
+tr,
+td,
+th {
+    background-color: #F0F8FF;
+    border: 2px solid #1E90FF;
+    border-collapse: collapse;
+    font-family: 'Frank Ruhl Libre', Times New Roman, Liberation serif, Serif;
+    font-size: 1.1em;
+    margin: auto;
+    padding: 3px;
+    text-align: center;
+}
+
+/* Aqui tem formataçao dos H */
+
+article h2 {
+    font-size: 1.4em;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    margin-bottom: 15px;
+    margin-top: 18px;
+    text-align: left;
+
+}
+
+aside h3 {
+    color: #1E90FF;
+    text-align: center;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+}
+
+section h2 {
+    margin-top: 0px;
+    margin-bottom: 5, ;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    font-size: 1.4em;
+}
+
+/*
+#um {
+    font-size: 1.4em;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    color: red;
+    margin-bottom: 15px;
+    margin-top: 18px;
+    text-align: left;
+}*/
+
+/*
+#dois {
+    color: #1E90FF;
+    text-align: center;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+}
+*/
+
+/*
+#tres {
+    margin-top: 0px;
+    margin-bottom: 5, ;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    font-size: 1.4em;
+}
+*/
+
+/* Aqui tem uma classe dos H da página contato */
+
+/* Aqui tem uma classe dos H da página contato */
+
+.artcontato h2 {
+    font-size: 1.5em;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    margin-bottom: 15px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+/*
+.ola {
+    font-size: 1.5em;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    margin-bottom: 15px;
+    margin-top: 18px;
+    text-align: center;
+}
+*/
+
+/* classes da página contatos */
+
+.ascontato h4 {
+    color: #1E90FF;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    font-size: 1.2em;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+/*
+.as1 {
+    color: #1E90FF;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    font-size: 1.2em;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    text-align: center;
+}*/
+
+/*
+.asparagrafo {
+    font-family: 'Frank Ruhl Libre', Times New Roman, Liberation serif, Serif;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+*/
+
+/* Aqui tem um ID no caption da tabela */
+
+#quatro {
+    padding-bottom: 10px;
+}
+
+/* Definição do parágrafo do começo da section da página destinos */
+
+#secparagrafo {
+    font-family: 'Frank Ruhl Libre', Times New Roman, Liberation serif, Serif;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    padding-left: 31px;
+    text-align: left;
+}
+
+
+/* Aqui tem um ID do Section de destinos */
+
+.sec0 {
+    /*    border: solid;*/
+    width: 940px;
+}
+
+.sec {
+    float: left;
+    /*    border: solid;*/
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 460px;
+    height: 430px;
+    text-align: center;
+    /*    background-color: #ea1971;*/
+}
+
+.sec p {
+    text-align: justify;
+    margin: 0px auto 0px auto;
+    width: 350px;
+}
+
+.sec img {
+    transform: scale(0.8);
+    transition: .5s ease;
+
+}
+
+.sec img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.7);
+}
+
+/*
+#sec1 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 22px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    float: right;
+}
+
+#sec2 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 22px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+#sec3 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 22px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    float: left;
+}
+
+#sec4 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 22px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    float: right;
+}
+
+#sec5 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    float: left;
+}*/
+
+/* Aqui tem classes */
+
+.legenda-imagem {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    padding-bottom: 10, ;
+    padding-bottom: 5px;
+}
+
+.um {
+    text-align: center;
+    color: #1E90FF;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+}
+
+.dois {
+    float: left;
+    margin-bottom: 22px;
+    margin-top: 1px;
+    padding-left: 10px;
+    width: 950px;
+}
+
+/* Aqui tem uma classe do formulário de busca */
+
+.meio {
+    font-family: 'Frank Ruhl Libre', Times New Roman, Liberation serif, Serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/* Aqui tem uma classe do botão da página contatos */
+
+.botao {
+    float: right;
+    position: relative;
+    right: 255px;
+    text-align: left;
+}
+
+/*Aqui tem controle do tamanho formulario*/
+
+.artcontato label {
+    /*    background: red;*/
+    margin-right: 10px;
+    height: 25px;
+}
+
+.artcontato input,
+select {
+    height: 25px;
+    margin-right: 20px;
+
+}
+
+input[type="radio"] {
+    margin: 5px;
+
+}
+
+textarea {
+    width: 58%;
+    /*    height: 30%;*/
+}
+
+#Nome {
+    width: 72%;
+}
+
+#cidade {
+    width: 40%;
+}
+
+#estado {
+    width: 30%;
+}
+
+#Email {
+    width: 40%;
+}
+
+#telefone {
+    margin-right: 0px;
+    width: 27%;
+}
+
+
+/* Aqui tem um footer */
+
+footer {
+    clear: both;
+    background: #ffd563;
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    font-size: 1.1em;
+    text-align: center;
+    height: 230px;
+}
+
+footer p {
+    /*    background: red;*/
+    width: 500px;
+    float: left;
+}
+
+footer nav {
+    float: left;
+    background: none;
+}
+
+footer nav p {
+    width: 200px;
+    padding-left: 80px;
+}
+
+
+
+.rede-social {
+    float: right;
+    position: relative;
+    right: 100px;
+    bottom: 45px;
+}
+
+.rede-social ul li {
+    float: right;
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    width: 60px;
+    transition: all .6s ease-out;
+}
+
+.rede-social ul li:hover {
+    transform: translateY(-20px);
+
+
+}
+
+#copy {
+
+    text-align: center;
+    width: 980px;
+}
+
+#logo {
+    /*    position: absolute;*/
+    float: left;
+    top 10px;
+}
+
+#dois {
+    font-family: 'Francois One', Arial, Liberation Sans, Sans Serif;
+    text-align: center;
+
+}
