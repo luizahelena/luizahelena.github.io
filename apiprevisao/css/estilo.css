@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
+
+body {
+            background-color: #e2f5ff;
+    font-size: 1.1em;
+    margin: auto;
+   text-align: center;
+        }
+    #cont {border-radius: 5px;
+    height: 150px;
+        width: 500px;}
+.legenda {
+    color:#00258a;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+.fonte {
+    font-family: 'Slabo 27px', Times New Roman, Liberation Sefir, serif;
+    font-size: 1.1em;
+}
+
+.input{
+    font-family: 'Slabo 27px', Times New Roman, Liberation Sefir, serif;
+    font-size: 1.1em;
+}
+#linha {
+    font-family: 'Slabo 27px', Times New Roman, Liberation Sefir, serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.botao {
+        color:#00258a;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
