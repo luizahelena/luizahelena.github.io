@@ -25,7 +25,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #2d7788;
+  color: #ae4b60;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -168,7 +168,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #2d7788;
+  color: #2a95b0;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -187,7 +187,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #2d7788;
+  background: #ae4b60;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -218,12 +218,12 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #d3c7d2;
 }
 .main-wrapper .company,
 .main-wrapper .university {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color:  #d3c7d2;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -248,7 +248,7 @@ p {
   margin-top: 5px;
 }
 .main-wrapper .projects-section .item .projects-tags-item{
-  border: 1px solid #42A8C0;
+  border: 1px solid #2a95b0;
   padding: 5px;
   border-radius: 5px;
   margin: 0 5px 5px 0;
@@ -260,7 +260,7 @@ p {
   cursor: default;
 }
 .main-wrapper .projects-section .item .projects-tags-item:hover{
-  background: #42A8C0;
+  background: #2a95b0;
   border-color: white;
   color: white;
 }
@@ -300,7 +300,7 @@ p {
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #545E6C;
+  color: #d3c7d2;
   font-size: 13px;
 }
 .footer .fa-heart {
@@ -365,3 +365,5 @@ p {
     content: none !important;
   }
 }
+
+.fa 
