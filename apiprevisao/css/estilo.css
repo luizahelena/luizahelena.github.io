@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
+
 body {
+
     font-size: 1.1em;
    text-align: center;
         }
@@ -19,16 +21,18 @@ body {
     font-family: 'Slabo 27px', Times New Roman, Liberation Sefir, serif;
     font-size: 1.1em;
 }
+
 .input{
     font-family: 'Slabo 27px', Times New Roman, Liberation Sefir, serif;
     font-size: 1.1em;
 }
-.linha {
+#linha {
     font-family: 'Slabo 27px', Times New Roman, Liberation Sefir, serif;
     font-size: 1.1em;
     text-align: center;
 }
-.bot {
+
+#botao {
         color:#00258a;
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 1.1em;
