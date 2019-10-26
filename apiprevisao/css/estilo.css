@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
 
 body {
-            background-color: #e2f5ff;
     font-size: 1.1em;
-    margin: auto;
    text-align: center;
         }
     #cont {border-radius: 5px;
