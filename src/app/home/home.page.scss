@@ -1,0 +1,88 @@
+*{ margin: 0; padding: 0;}
+
+.body{ height: 100%; width: 100%;
+  background-image: linear-gradient(to bottom, #f0f0f0, rgb(229, 230, 253));
+  text-align: center;
+}
+
+.header{ background-image: linear-gradient(to right, #FBF389, #FDCB0D);   color: #307EB7; font-size: 20px; font-weight: bold;padding: 12px 16px;  width: 100%; }
+
+
+
+.carddigite{
+  border-style: solid #FDCB0D;
+  background: #FBF389;
+  border-radius: 10px;
+  display: block;
+  height: 150px;
+  margin: 20px auto 0px auto;
+  width: 90%;
+  padding: 18px;
+}
+
+
+.label{
+  color: #307EB7;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.input{
+  border: none;
+  border-radius: 2px;
+  box-shadow: inset 0px 0px 3px 1px #0a0a0a10;
+  padding: 7px 9px;
+  width: 100%;
+  &:focus{
+    border: none;
+    box-shadow: inset 0px 0px 3px 1px #0a0a0a25;
+    outline: none;
+  }
+  &::placeholder{
+    opacity: 0.6;
+  }
+}
+
+.botao{
+  background-image: linear-gradient(to right, #Fdcb1d, #FDCB0D);
+  border-radius: 6px;
+  color: #307EB7;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 16px;
+  padding: 8px 16px;
+  width: 100%;
+
+}
+
+.info{
+  color: #307EB7;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.div-cards{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 94%;
+}
+
+.cards{
+  background: #FBF389;
+  border-radius: 6px;
+  box-shadow: 0px 0px 3px 1px #FDCB0D;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  width: 50%;
+  
+}
+
+.nomes{ font-size: 16px; font-weight: bold;  color: #307EB7; }
+

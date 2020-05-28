@@ -1,0 +1,59 @@
+<ion-content [fullscreen]="true">
+  <div class="body">
+
+    <div class="header">
+      <ion-icon name="arrow-back-outline" routerLink="/home"></ion-icon>
+      <h3 class="app">App Previsão do Tempo</h3>
+    </div>
+    <div class="main" style="margin-top: 22px;" *ngIf="informacoes">
+      <p class="cidade">{{informacoes.name}}</p>
+      <p class="temp">{{temp}} º</p>
+      <div class="div-cards">
+        <div class="carddetalhe">
+          <p class="tempmin">{{tempMinima}} º</p>
+          <br>
+          <p class="texto">Temperatura mínima</p>
+        </div>
+        <div class="carddetalhe">
+          <p class="tempmax">{{tempMaxima}} º</p>
+          <br>
+          <p class="texto">Temperatura máxima</p>
+        </div>
+      </div>
+      <div class="div-cards">
+        <div class="carddetalhe">
+          <p class="tempmin">{{informacoes.main.humidity}} %</p>
+          <br>
+          <p class="texto">Umidade</p>
+        </div>
+        <div class="carddetalhe">
+          <p class="tempmin">{{informacoes.main.pressure}} mm</p>
+          <br>
+          <p class="texto">Pressão</p>
+        </div>
+      </div>
+      <div class="div-cards">
+        <div class="carddetalhe">
+          <p class="tempmin">{{informacoes.coord.lat}}</p>
+          <br>
+          <p class="texto">Latitude</p>
+        </div>
+        <div class="carddetalhe">
+          <p class="tempmin">{{informacoes.coord.lon}}</p>
+          <br>
+          <p class="texto">Longitude</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Caso o nome da cidade digitado esteja incorreto -->
+    <div class="erro" *ngIf="notFound == 'erro'">
+
+      <p class="textoerro">Não foi possível encontrar uma cidade com este nome, verifique se o nome está correto e tente novamente.</p>
+    </div>
+
+
+
+
+  </div>
+</ion-content>
