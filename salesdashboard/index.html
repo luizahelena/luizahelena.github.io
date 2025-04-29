@@ -1,40 +1,102 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Luiza Cóllo</title>
-    <meta name="description" content="Formada em Sistemas para Internet e Pós-Graduada em Especialização em Experiência do Usuário (conclusão junho/2022)">
-    <meta property="og:url" content="">
-    <meta property="og:title" content="Luiza Cóllo">
-    <meta property="og:description" content="Formada em Sistemas para Internet e Pós-Graduada em Especialização em Experiência do Usuário (conclusão junho/2022)">
-    <meta property="og:site_name" content="Luiza Cóllo">
-    <meta itemprop="name" content="Luiza Cóllo">
-    <meta itemprop="description" content="Formada em Sistemas para Internet e Pós-Graduada em Especialização em Experiência do Usuário (conclusão junho/2022)">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <script type="text/javascript" src="assets/js/jquery.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projeto Sales Dashboard - Luiza Cóllo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --primary: #5D5FEF;
+      --background: #f5f5f5;
+      --text: #121212;
+      --accent: #FF6584;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      padding: 20px;
+    }
+
+    h1, h2 {
+      font-family: 'Poppins', sans-serif;
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    .wrapper {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .project-tagline {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+      max-width: 960px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 15px;
+      }
+
+      .section-title {
+        font-size: 1.4rem;
+      }
+
+      .project-tagline {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="main-wrapper">
-            <section class="section projects-section">
-                <h2 class="section-title"><i class="fa fa-desktop" style="text-align: center;"></i>Projeto Sales Dashboard</h2>
-<span class="project-tagline">Os tamanhos e resoluções das artes foram ajustados para otimizar a visualização e o tempo de carregamento. Vale destacar que a empresa não me contratou para este projeto, ele foi desenvolvido com o objetivo de aprendizado.</span>
-                    <p></p>
-                    <p style="text-align: center;"><img src="\salesdashboard\images\salesdashboard.png" style="width:100%">
-                </div>
-            </section>
-        </div>
-    </div>
-
-
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-
+  <div class="wrapper">
+    <section class="section projects-section">
+      <h2 class="section-title">
+        <i class="fa fa-desktop"></i> Projeto Sales Dashboard
+      </h2>
+      <p class="project-tagline">
+        Os tamanhos e resoluções das artes foram ajustados para otimizar a visualização e o tempo de carregamento. Vale destacar que a empresa não me contratou para este projeto, ele foi desenvolvido com o objetivo de aprendizado.
+      </p>
+      <div style="text-align: center;">
+        <img src="images/salesdashboard.png" alt="Tela do Projeto Sales Dashboard">
+      </div>
+    </section>
+  </div>
 </body>
-
 </html>
